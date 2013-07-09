@@ -1,0 +1,8 @@
+venv
+*.pyc
+*.pyo
+*~
+*.bk
+local_settings.py
+*.egg-info
+.idea
