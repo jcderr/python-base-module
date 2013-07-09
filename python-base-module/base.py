@@ -5,31 +5,29 @@ class Manager(object):
         self.something = something
 
     def _list(self):
-        pass
+        raise NotImplementedError
 
     def _get(self, *args, **kwargs):
-        pass
+        raise NotImplementedError
 
     def _put(self, *args, **kwargs):
-        pass
+        raise NotImplementedError
 
     def _post(self, *args, **kwargs):
-        pass
+        raise NotImplementedError
 
     def _create(self):
-        pass
+        raise NotImplementedError
 
     def _delete(self, *args, **kwargs):
-        pass
+        raise NotImplementedError
 
     def _update(self):
-        pass
+        raise NotImplementedError
 
     def find(self, **kwargs):
-        pass
+        raise NotImplementedError
 
-    def findall(self, **kwargs):
-        pass
 
 class Resource(object):
     """
